@@ -5,7 +5,7 @@ const Profile = () => {
     return (
         <div className={s.content}>
             <div>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRHEWNRcrseH7SaAanPeEgAc7IzEw9QMhVgvAcYJbVRROZOIDd1&usqp=CAU" alt="Image 404"/>
+            <img src="https://www.foresteruniversity.com/uploads/PACE-1200x200.jpg" alt="Image 404"/>
             </div>
             <div>
             ava + description

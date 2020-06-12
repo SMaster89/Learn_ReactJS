@@ -1,13 +1,22 @@
 .header {
     grid-area: h;
     background: rgb(245,0,0);
-background: radial-gradient(circle, rgba(245,0,0,1) 0%, rgba(5,5,5,0.7651435574229692) 50%, rgba(255,0,14,0.7287289915966386) 100%);
-    border-bottom-left-radius: 10px;
+    background: radial-gradient(circle, rgba(245,0,0,1) 0%, rgba(5,5,5,0.7651435574229692) 50%, rgba(255,0,14,0.7287289915966386) 100%);
+    border-bottom-left-radius: 39px;
     border-bottom-right-radius: 10px;
   }
   
   .header img {
-    width: 60px;
+    width: 80px;
     border: 1px white;
     border-radius: 50%;
   }
+
+@keyframes myanimation {
+    0% {transform:rotateZ(0deg);}
+    100% {transform:rotateZ(360deg);}
+}
+
+ .header img {
+    animation: myanimation 7s infinite alternate linear;
+}
