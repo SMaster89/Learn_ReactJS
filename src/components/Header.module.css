@@ -1,6 +1,9 @@
 .header {
     grid-area: h;
-    background-color: #0e7a4d;
+    background: rgb(245,0,0);
+background: radial-gradient(circle, rgba(245,0,0,1) 0%, rgba(5,5,5,0.7651435574229692) 50%, rgba(255,0,14,0.7287289915966386) 100%);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
   }
   
   .header img {
