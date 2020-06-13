@@ -7,20 +7,26 @@ background: linear-gradient(0deg, rgba(34,193,195,1) 38%, rgba(45,253,86,0.99203
   }
 
 li {
+    width: 100px;  
     list-style: none;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    text-align: center;
   }
   
 a {
+  display: block;
   text-decoration: none;
   color: #fff;
   font-size: 18px;
+  padding: 3px 7px;
+  transition: 1s ease;
 }
 
 a:hover {
+  transform: translate(5px, -10px) skew(-25deg, 0deg);
+  box-shadow: -10px 13px 5px 1px rgba(148,242,178,1);
   color: rgb(34,193,195);
   background-color: #fff;
   border: 1px solid;
   border-radius: 5px;
-  padding: 3px 7px;
 }
