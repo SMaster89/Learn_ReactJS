@@ -5,7 +5,6 @@ import Nav from './components/Nav/Nav';
 import Profile from './components/Profile/Profile';
 
 
-
 // function App() {
   const App = () => {
   return (  
