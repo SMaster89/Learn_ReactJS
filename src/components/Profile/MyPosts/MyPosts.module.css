@@ -1,0 +1,14 @@
+.myPosts {
+    padding: 10px;
+}
+
+.myPosts button{
+    display: block;
+    margin-top: 5px;
+    border-radius: 5px;
+    padding: 3px 10px;
+}
+
+.posts {
+    margin-top: 10px;
+}
