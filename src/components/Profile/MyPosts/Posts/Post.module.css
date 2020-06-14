@@ -1,6 +1,10 @@
  .item {
-     color: rgb(104, 221, 25); 
+     color: rgb(0, 30, 115);
   }
+
+ .item span {
+     color: rgb(34, 192, 194);
+ }
 
   .item img {
       width: 50px;
