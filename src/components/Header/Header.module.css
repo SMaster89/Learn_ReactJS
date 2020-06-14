@@ -1,16 +1,17 @@
 .header {
     grid-area: h;
-    background: rgb(245,0,0);
-    background: radial-gradient(circle, rgba(245,0,0,1) 0%, rgba(5,5,5,0.7651435574229692) 50%, rgba(255,0,14,0.7287289915966386) 100%);
-    border-bottom-left-radius: 43px;
-    border-top-left-radius: 43px;
+    background: rgba(45,253,86,0.8);
+    background: linear-gradient(0deg, rgba(45,253,86,0.9920343137254902)   38%, rgba(34,193,195,1) 100%);
+    border-bottom-left-radius: 45px;
+    border-top-left-radius: 45px;
     border-bottom-right-radius: 10px;
   }
   
   .header img {
-    width: 80px;
-    border: 1px white;
+      position: relative;
+    width: 81px;
     border-radius: 50%;
+      left: -2px;
   }
 
 @keyframes myanimation {

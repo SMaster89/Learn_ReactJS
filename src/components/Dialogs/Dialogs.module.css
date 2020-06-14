@@ -8,10 +8,30 @@
 }
 
 .dialog {
-
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 2px 3px;
+    transition: 0.6s ease;
 }
-.dialog.active {
-    color: gold;
+
+a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 2px 3px;
+    transition: 0.6s ease;
+}
+
+.dialog a:hover, a.activeLink{
+    display: block;
+    transform: translate(3px, -8px) skew(-25deg, 0deg);
+    box-shadow: -4px 5px 5px 1px rgba(233, 213, 239, 0.99);
+    color: rgb(34,193,195);
+    background-color: #fff;
+    border-radius: 3px;
 }
 
 .messages {
