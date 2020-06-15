@@ -6,7 +6,7 @@ import ProfileInfo from "./ProfileInfo/ProfileInfo";
 const Profile = (props) => {
 
     let posts = props.posts
-    
+
     return (
         <div>
             <ProfileInfo />
