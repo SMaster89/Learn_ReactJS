@@ -8,5 +8,20 @@
 }
 
 .messages {
+    display: flex;
+    flex-direction: column;
     padding: 10px;
+    justify-content: space-between;
+}
+
+.messageItem {
+    padding: 10px;
+}
+
+.messageInput {
+    align-items: flex-end;
+}
+
+textarea {
+    resize: none;
 }
