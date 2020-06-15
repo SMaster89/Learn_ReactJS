@@ -10,8 +10,8 @@
 
 .app-wrapper-content {
   grid-area: c;
-  background: rgb(238,174,202);
-  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,0.5886729691876751) 100%);
+  background: rgba(238, 174, 202, 0.46);
+  background: radial-gradient(circle, rgba(238, 174, 202, 0.44) 0%, rgb(148, 187, 233) 100%);
   border-bottom-right-radius: 10px;
   border-top-right-radius: 10px;
 }

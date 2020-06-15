@@ -1,0 +1,30 @@
+
+.friends {
+    display: flex;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+.friendsItem img {
+    height: 30px;
+    max-width: 30px;
+    margin-right: 5px;
+    margin-top: 4px;
+    border-radius: 50%;
+}
+
+.friendsItem a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+.friendsItem a:hover {
+    color: rgb(34,193,195);
+    background-color: #fff;
+    border-radius: 3px;
+}
+

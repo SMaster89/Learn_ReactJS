@@ -93,27 +93,33 @@ let state = {
         dialogs: [
             {
                 id: 1,
-                name: "Dimych"
+                name: "Dimych",
+                src: "https://avatars.mitosa.net/ring/sm070.jpg"
             },
             {
                 id: 2,
-                name: "Andrey"
+                name: "Andrey",
+                src: "https://icons.iconarchive.com/icons/hopstarter/face-avatars/256/Male-Face-D4-icon.png"
             },
             {
                 id: 3,
-                name: "Sveta"
+                name: "Sveta",
+                src: "https://icons.iconarchive.com/icons/hopstarter/face-avatars/256/Male-Face-D1-icon.png"
             },
             {
                 id: 4,
-                name: "Sasha"
+                name: "Sasha",
+                src: "https://www.freeiconspng.com/uploads/face-avatar-png-14.png"
             },
             {
                 id: 5,
-                name: "Viktor"
+                name: "Viktor",
+                src: "https://www.iconninja.com/files/785/42/357/avatar-face-icon.png"
             },
             {
                 id: 6,
-                name: "Valera"
+                name: "Valera",
+                src: "https://icons.iconarchive.com/icons/hopstarter/face-avatars/256/Male-Face-H2-icon.png"
             },
         ],
         messages: [
@@ -130,6 +136,40 @@ let state = {
                 message: "Yo"
             },
 
+        ],
+    },
+    friendsPage: {
+        friends: [
+            {
+                id: 1,
+                name: "Dimych",
+                src: "https://avatars.mitosa.net/ring/sm070.jpg"
+            },
+            {
+                id: 2,
+                name: "Andrey",
+                src: "https://icons.iconarchive.com/icons/hopstarter/face-avatars/256/Male-Face-D4-icon.png"
+            },
+            {
+                id: 3,
+                name: "Sveta",
+                src: "https://icons.iconarchive.com/icons/hopstarter/face-avatars/256/Male-Face-D1-icon.png"
+            },
+            {
+                id: 4,
+                name: "Sasha",
+                src: "https://www.freeiconspng.com/uploads/face-avatar-png-14.png"
+            },
+            {
+                id: 5,
+                name: "Viktor",
+                src: "https://www.iconninja.com/files/785/42/357/avatar-face-icon.png"
+            },
+            {
+                id: 6,
+                name: "Valera",
+                src: "https://icons.iconarchive.com/icons/hopstarter/face-avatars/256/Male-Face-H2-icon.png"
+            },
         ]
     }
 }

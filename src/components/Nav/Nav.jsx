@@ -11,6 +11,7 @@ const Nav = () => {
                 <li className={s.item}><NavLink to="/news" activeClassName={s.activeLink}>News</NavLink></li>
                 <li className={s.item}><NavLink to="/music" activeClassName={s.activeLink}>Music</NavLink></li>
                 <li className={s.item}><NavLink to="/settings" activeClassName={s.activeLink}>Settings</NavLink></li>
+                <li className={s.item}><NavLink to="/friends" activeClassName={s.activeLink}>Friends</NavLink></li>
             </ul>
         </nav>
     );
