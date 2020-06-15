@@ -1,7 +1,7 @@
 .nav {
     grid-area: n;
-    background: rgb(34, 193, 195);
-    background: linear-gradient(0deg, rgba(34,193,195,1) 38%, rgba(45,253,86,0.9920343137254902) 100%);
+    background: rgba(34, 193, 195, 0.61);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 0.6) 38%, rgba(45, 253, 86, 0.62) 100%);
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
   }

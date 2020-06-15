@@ -1,7 +1,7 @@
 .header {
     grid-area: h;
-    background: rgba(45,253,86,0.8);
-    background: linear-gradient(0deg, rgba(45,253,86,0.9920343137254902)   38%, rgba(34,193,195,1) 100%);
+    background: rgba(45, 253, 86, 0.53);
+    background: linear-gradient(0deg, rgba(45, 253, 86, 0.58) 38%, rgba(34, 193, 195, 0.5) 100%);
     border-bottom-left-radius: 45px;
     border-top-left-radius: 45px;
     border-bottom-right-radius: 10px;
