@@ -9,9 +9,13 @@ const Friends = (props) => {
     return (
         <div className={s.friends}>
             <h3>Friends</h3>
+            <div className={s.friendInfo}>
+                <h4>Info about friend</h4>
+            </div>
             <div className={s.friendsItem}>
                 {friendsItems}
             </div>
+
         </div>
     );
 }

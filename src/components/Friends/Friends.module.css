@@ -1,12 +1,24 @@
 
 .friends {
-    display: flex;
-    padding-left: 10px;
-    padding-bottom: 10px;
-    flex-direction: column;
-    flex-wrap: wrap;
+    display: grid;
+    /*display: flex;*/
+    grid-template-columns: 5fr 5fr;
+    padding: 10px;
+    /*flex-direction: column;*/
+    /*flex-wrap: wrap;*/
 
 }
+
+.friendInfo {
+    display: block;
+    padding-left: 10px;
+    border-left: 1px solid #000;
+}
+
+.friendInfo h4{
+
+}
+
 .friendsItem img {
     height: 30px;
     max-width: 30px;
