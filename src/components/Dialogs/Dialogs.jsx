@@ -19,9 +19,6 @@ const Dialogs = (props) => {
         alert(text);
     }
 
-
-
-
     return (
         <div className={s.dialogs}>
             <div className={s.dialogsItem}>
