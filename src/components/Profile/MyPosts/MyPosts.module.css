@@ -9,6 +9,10 @@
     padding: 3px 10px;
 }
 
+.myPosts textarea {
+    resize: none;
+}
+
 .posts {
     margin-top: 10px;
 }
